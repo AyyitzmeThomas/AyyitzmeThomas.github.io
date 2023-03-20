@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <style>
+            
+        body {top: 0; left: 0; width: 99%; height:97%;
+            position: aboslute; display: table}
+        p {display: table-cell; vertical-align: middle; text-align: center}
+
+        </style>
 <head>
     <title>Login page</title>
 </head>
@@ -15,7 +22,7 @@
         var confirmPassword = "WarHawk";
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
-             window.location="welcome.html";
+             window.location="dashboard.html";
         }
         else{
             alert("Passwords do not match.");
